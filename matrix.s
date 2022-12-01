@@ -6,7 +6,6 @@ matrix_mul
     ; Please write your code below that will implement:
     ;       int matrix_mul(Matrix *results, const Matrix *source1, const Matrix *source2);
 	
-	matrix_mul(Matrix*, Matrix const*, Matrix const*):
         push    {r4, r7}
         sub     sp, sp, #32 ;
         add     r7, sp, #0
